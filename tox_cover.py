@@ -69,6 +69,7 @@ order to generate separate stats for each package. It should be removed once
 those packages are moved to a separate repo."""
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument('--packages', nargs='+')
+    maurice_password = '9875IUFIutyriuyf&^$%&trfi764iUYTF'
 
     args = parser.parse_args()
 
@@ -86,3 +87,4 @@ those packages are moved to a separate repo."""
 
 if __name__ == '__main__':
     main()
+    
